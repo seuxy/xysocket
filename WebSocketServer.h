@@ -10,16 +10,19 @@
 #include <map>
 
 using namespace std;
-
-class WebSocketServer {
-public:
+namespace xy{
     struct Connection {
         list<string> buffer;     // Ordered list of pending messages to flush out when socket is writable
         map<string, string> keyValueMap;
         time_t createTime;
     };
+}
 
-    map<int, Connection *> connections;
+class WebSocketServer {
+public:
+
+
+    map<int, xy::Connection *> connections;
 
     WebSocketServer(int port, const string &certPath = "", const string &keyPath = "");
 
@@ -47,6 +50,10 @@ public:
     void onDisconnectWrapper(int socketID);
 
     void onErrorWrapper(int socketID, const string &message);
+
+    string getValue( int socketID, const string& name );
+
+    void   setValue( int socketID, const string& name, const string& value );
 
 private:
     int _port;

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/joyce/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dingwenjiang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/joyce/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E remove -f
+RM = /home/dingwenjiang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joyce/program/xysocket
+CMAKE_SOURCE_DIR = /home/dingwenjiang/Desktop/xysocket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joyce/program/xysocket/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dingwenjiang/Desktop/xysocket/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/joyce/program/xysocket/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/joyce/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/dingwenjiang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/joyce/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/dingwenjiang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joyce/program/xysocket/cmake-build-debug/CMakeFiles /home/joyce/program/xysocket/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles /home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/joyce/program/xysocket/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -204,6 +204,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/xysocket.dir/build.make CMakeFiles/xysocket.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+mysql_connection.o: mysql_connection.cpp.o
+
+.PHONY : mysql_connection.o
+
+# target to build an object file
+mysql_connection.cpp.o:
+	$(MAKE) -f CMakeFiles/xysocket.dir/build.make CMakeFiles/xysocket.dir/mysql_connection.cpp.o
+.PHONY : mysql_connection.cpp.o
+
+mysql_connection.i: mysql_connection.cpp.i
+
+.PHONY : mysql_connection.i
+
+# target to preprocess a source file
+mysql_connection.cpp.i:
+	$(MAKE) -f CMakeFiles/xysocket.dir/build.make CMakeFiles/xysocket.dir/mysql_connection.cpp.i
+.PHONY : mysql_connection.cpp.i
+
+mysql_connection.s: mysql_connection.cpp.s
+
+.PHONY : mysql_connection.s
+
+# target to generate assembly for a file
+mysql_connection.cpp.s:
+	$(MAKE) -f CMakeFiles/xysocket.dir/build.make CMakeFiles/xysocket.dir/mysql_connection.cpp.s
+.PHONY : mysql_connection.cpp.s
+
 sonWebSocketServer.o: sonWebSocketServer.cpp.o
 
 .PHONY : sonWebSocketServer.o
@@ -249,6 +276,9 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mysql_connection.o"
+	@echo "... mysql_connection.i"
+	@echo "... mysql_connection.s"
 	@echo "... sonWebSocketServer.o"
 	@echo "... sonWebSocketServer.i"
 	@echo "... sonWebSocketServer.s"

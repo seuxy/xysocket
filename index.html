@@ -1,33 +1,85 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style>
+        .afterlogin{
+            display: none;
+        }
+    </style>
 </head>
 <body>
-<div>
- <ul id="messages"></ul>
+<div class="login">
+    <input type="text" placeholder="please input your username" id="username"/>
+    <input type="text" placeholder="please input your password" id="password" />
+    <input type="button" value="login" id="login" />
 </div>
-<div>
-  <input type="text" id="msg" />
-  <input type="button" id="btnSend" value="send">
+
+<div class="afterlogin">
+    <div>
+        <ul id="messages"></ul>
+    </div>
+
+
+    <div>
+        <input type="text" id="msg" />
+        <input type="button" id="btnSend" value="send">
+        <input type="button" id="join" value="join2">
+    </div>
 </div>
+
+
+
 <script>
-var ws = new WebSocket('ws://127.0.0.1:9000/')
+    var ws = new WebSocket('ws://10.211.55.7:9000/')
+    var userId = -1;
+    var roomId = parseInt(location.hash.slice(1))//parseInt(location.search.slice(1).split('=')[1],10);
+    ws.onmessage = function(e){
+        console.log(e.data)
+        var data = e.data;
+        var arr = data.split("#");
+        if(arr[0] == 'LOGIN'){
+            if(arr[1] == 'success'){
+                //display content
+                document.getElementsByClassName('login')[0].style.display = "none";
+                document.getElementsByClassName('afterlogin')[0].style.display = "block";
+                userId = parseInt(arr[2],10);
+                alert(userId)
+                ws.send('JOIN#'+roomId)
+            }else {
+                // username password error
+                alert(arr[1]);
+            }
+        }else if (arr[0] == 'MSG'){
+            var li = document.createElement('li');
+            li.innerHTML = data;
+            messages.appendChild(li);
+            msg.value = ""
+        }
+
+        //var li = document.createElement('li');
+        //li.innerHTML = data;
+        //messages.appendChild(li);
+        //msg.value = ""
+    }
+
+    document.getElementById("login").addEventListener('click',function(e){
+        ws.send('LOGIN' +'#'+document.getElementById("username").value+ '#'+document.getElementById("password").value);
+    })
+    document.getElementById("join").addEventListener('click',function(e){
+        roomId = 2;
+        location.hash = '#' + roomId;
+        ws.send('JOIN' +'#'+2);
+    })
+
+//var ws = new WebSocket('ws://127.0.0.1:9000/')
 var messages = document.getElementById('messages');
-ws.onmessage = function(e){
-   	console.log(e.data)
-	var data = e.data;
-        var li = document.createElement('li');
-	li.innerHTML = data;
-        messages.appendChild(li);
-	msg.value = ""
-}
 
 var msg = document.getElementById('msg')
 var btn = document.getElementById('btnSend')
     
 btn.addEventListener('click',function(){
 	//console.log(ws)
-	ws.send(msg.value)
+	ws.send('MSG#'+roomId + '#' + userId+ '#'+msg.value)
 })
 
 

@@ -6,8 +6,11 @@
 #define XYSOCKET_SONWEBSOCKETSERVER_H
 
 #include "WebSocketServer.h"
+#include "mysql_connection.h"
 #include <map>
 #include <list>
+#include <algorithm>
+#include <string>
 using namespace std;
 
 class sonWebSocketServer : public WebSocketServer{
@@ -27,7 +30,11 @@ private:
     void joinRoom(int socketID, int roomId);
     void leaveRoom(int socketID, int roomId);
     void broadcastMsgByRoomId(int roomId,const string& msg);
-    map<int, list> _room;
+    map<int, list<int>> _room;
+
+    string isUser(const string &name, const string &pwd, int &userId);
+
+    connectionPool *pool = connectionPool::getInstance();
 
 };
 

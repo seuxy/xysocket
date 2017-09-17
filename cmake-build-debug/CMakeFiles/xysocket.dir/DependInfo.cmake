@@ -4,10 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/joyce/program/xysocket/Util.cpp" "/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/Util.cpp.o"
-  "/home/joyce/program/xysocket/WebSocketServer.cpp" "/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/WebSocketServer.cpp.o"
-  "/home/joyce/program/xysocket/main.cpp" "/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/main.cpp.o"
-  "/home/joyce/program/xysocket/sonWebSocketServer.cpp" "/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o"
+  "/home/dingwenjiang/Desktop/xysocket/Util.cpp" "/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/Util.cpp.o"
+  "/home/dingwenjiang/Desktop/xysocket/WebSocketServer.cpp" "/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/WebSocketServer.cpp.o"
+  "/home/dingwenjiang/Desktop/xysocket/main.cpp" "/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/main.cpp.o"
+  "/home/dingwenjiang/Desktop/xysocket/mysql_connection.cpp" "/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/mysql_connection.cpp.o"
+  "/home/dingwenjiang/Desktop/xysocket/sonWebSocketServer.cpp" "/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

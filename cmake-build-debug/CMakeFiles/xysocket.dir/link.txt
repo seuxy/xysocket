@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/xysocket.dir/main.cpp.o CMakeFiles/xysocket.dir/WebSocketServer.cpp.o CMakeFiles/xysocket.dir/Util.cpp.o CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o  -o xysocket -Wl,-rpath,/usr/local/lib /usr/local/lib/libwebsockets.so 
+/usr/bin/c++  -g   CMakeFiles/xysocket.dir/main.cpp.o CMakeFiles/xysocket.dir/WebSocketServer.cpp.o CMakeFiles/xysocket.dir/Util.cpp.o CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o CMakeFiles/xysocket.dir/mysql_connection.cpp.o  -o xysocket -Wl,-rpath,/usr/local/lib /usr/local/lib/libwebsockets.so -lmysqlcppconn 

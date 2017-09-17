@@ -3,6 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/xysocket.dir/WebSocketServer.cpp.o"
   "CMakeFiles/xysocket.dir/Util.cpp.o"
   "CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o"
+  "CMakeFiles/xysocket.dir/mysql_connection.cpp.o"
   "xysocket.pdb"
   "xysocket"
 )

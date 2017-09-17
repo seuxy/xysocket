@@ -8,7 +8,7 @@
 #include "libwebsockets.h"
 
 #define MAX_BUFFER_SIZE 0
-
+using namespace xy;
 WebSocketServer *self;
 
 static int callback_main(   struct lws *wsi,
@@ -162,6 +162,14 @@ void WebSocketServer::_removeConnection( int socketID )
     Connection* c = this->connections[ socketID ];
     this->connections.erase( socketID );
     delete c;
+}
+
+string WebSocketServer::getValue(int socketID, const string &name) {
+    return connections[socketID]->keyValueMap[name];
+}
+
+void WebSocketServer::setValue( int socketID, const string& name, const string& value ) {
+    connections[socketID]->keyValueMap[name] = value;
 }
 
 

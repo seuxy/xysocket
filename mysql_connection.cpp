@@ -69,7 +69,7 @@ void connectionPool::reducePool(int size) {
 
 connectionPool* connectionPool::getInstance() {
     if (pool == NULL) {
-        pool = new connectionPool("root","19930722","localhost",40);
+        pool = new connectionPool("root","123456","localhost",40);
     }
     return pool;
 }

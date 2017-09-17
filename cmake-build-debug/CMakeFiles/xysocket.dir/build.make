@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/joyce/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake
+CMAKE_COMMAND = /home/dingwenjiang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /home/joyce/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E remove -f
+RM = /home/dingwenjiang/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/172.3968.17/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joyce/program/xysocket
+CMAKE_SOURCE_DIR = /home/dingwenjiang/Desktop/xysocket
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joyce/program/xysocket/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dingwenjiang/Desktop/xysocket/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/xysocket.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/xysocket.dir/flags.make
 
 CMakeFiles/xysocket.dir/main.cpp.o: CMakeFiles/xysocket.dir/flags.make
 CMakeFiles/xysocket.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xysocket.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/main.cpp.o -c /home/joyce/program/xysocket/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/xysocket.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/main.cpp.o -c /home/dingwenjiang/Desktop/xysocket/main.cpp
 
 CMakeFiles/xysocket.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xysocket.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/program/xysocket/main.cpp > CMakeFiles/xysocket.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dingwenjiang/Desktop/xysocket/main.cpp > CMakeFiles/xysocket.dir/main.cpp.i
 
 CMakeFiles/xysocket.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xysocket.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/program/xysocket/main.cpp -o CMakeFiles/xysocket.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dingwenjiang/Desktop/xysocket/main.cpp -o CMakeFiles/xysocket.dir/main.cpp.s
 
 CMakeFiles/xysocket.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ CMakeFiles/xysocket.dir/main.cpp.o.provides.build: CMakeFiles/xysocket.dir/main.
 
 CMakeFiles/xysocket.dir/WebSocketServer.cpp.o: CMakeFiles/xysocket.dir/flags.make
 CMakeFiles/xysocket.dir/WebSocketServer.cpp.o: ../WebSocketServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xysocket.dir/WebSocketServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/WebSocketServer.cpp.o -c /home/joyce/program/xysocket/WebSocketServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/xysocket.dir/WebSocketServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/WebSocketServer.cpp.o -c /home/dingwenjiang/Desktop/xysocket/WebSocketServer.cpp
 
 CMakeFiles/xysocket.dir/WebSocketServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xysocket.dir/WebSocketServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/program/xysocket/WebSocketServer.cpp > CMakeFiles/xysocket.dir/WebSocketServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dingwenjiang/Desktop/xysocket/WebSocketServer.cpp > CMakeFiles/xysocket.dir/WebSocketServer.cpp.i
 
 CMakeFiles/xysocket.dir/WebSocketServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xysocket.dir/WebSocketServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/program/xysocket/WebSocketServer.cpp -o CMakeFiles/xysocket.dir/WebSocketServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dingwenjiang/Desktop/xysocket/WebSocketServer.cpp -o CMakeFiles/xysocket.dir/WebSocketServer.cpp.s
 
 CMakeFiles/xysocket.dir/WebSocketServer.cpp.o.requires:
 
@@ -107,16 +107,16 @@ CMakeFiles/xysocket.dir/WebSocketServer.cpp.o.provides.build: CMakeFiles/xysocke
 
 CMakeFiles/xysocket.dir/Util.cpp.o: CMakeFiles/xysocket.dir/flags.make
 CMakeFiles/xysocket.dir/Util.cpp.o: ../Util.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xysocket.dir/Util.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/Util.cpp.o -c /home/joyce/program/xysocket/Util.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/xysocket.dir/Util.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/Util.cpp.o -c /home/dingwenjiang/Desktop/xysocket/Util.cpp
 
 CMakeFiles/xysocket.dir/Util.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xysocket.dir/Util.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/program/xysocket/Util.cpp > CMakeFiles/xysocket.dir/Util.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dingwenjiang/Desktop/xysocket/Util.cpp > CMakeFiles/xysocket.dir/Util.cpp.i
 
 CMakeFiles/xysocket.dir/Util.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xysocket.dir/Util.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/program/xysocket/Util.cpp -o CMakeFiles/xysocket.dir/Util.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dingwenjiang/Desktop/xysocket/Util.cpp -o CMakeFiles/xysocket.dir/Util.cpp.s
 
 CMakeFiles/xysocket.dir/Util.cpp.o.requires:
 
@@ -131,16 +131,16 @@ CMakeFiles/xysocket.dir/Util.cpp.o.provides.build: CMakeFiles/xysocket.dir/Util.
 
 CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o: CMakeFiles/xysocket.dir/flags.make
 CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o: ../sonWebSocketServer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o -c /home/joyce/program/xysocket/sonWebSocketServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o -c /home/dingwenjiang/Desktop/xysocket/sonWebSocketServer.cpp
 
 CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joyce/program/xysocket/sonWebSocketServer.cpp > CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dingwenjiang/Desktop/xysocket/sonWebSocketServer.cpp > CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.i
 
 CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joyce/program/xysocket/sonWebSocketServer.cpp -o CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dingwenjiang/Desktop/xysocket/sonWebSocketServer.cpp -o CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.s
 
 CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o.requires:
 
@@ -153,12 +153,37 @@ CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o.provides: CMakeFiles/xysocket.d
 CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o.provides.build: CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o
 
 
+CMakeFiles/xysocket.dir/mysql_connection.cpp.o: CMakeFiles/xysocket.dir/flags.make
+CMakeFiles/xysocket.dir/mysql_connection.cpp.o: ../mysql_connection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/xysocket.dir/mysql_connection.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/xysocket.dir/mysql_connection.cpp.o -c /home/dingwenjiang/Desktop/xysocket/mysql_connection.cpp
+
+CMakeFiles/xysocket.dir/mysql_connection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/xysocket.dir/mysql_connection.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dingwenjiang/Desktop/xysocket/mysql_connection.cpp > CMakeFiles/xysocket.dir/mysql_connection.cpp.i
+
+CMakeFiles/xysocket.dir/mysql_connection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/xysocket.dir/mysql_connection.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dingwenjiang/Desktop/xysocket/mysql_connection.cpp -o CMakeFiles/xysocket.dir/mysql_connection.cpp.s
+
+CMakeFiles/xysocket.dir/mysql_connection.cpp.o.requires:
+
+.PHONY : CMakeFiles/xysocket.dir/mysql_connection.cpp.o.requires
+
+CMakeFiles/xysocket.dir/mysql_connection.cpp.o.provides: CMakeFiles/xysocket.dir/mysql_connection.cpp.o.requires
+	$(MAKE) -f CMakeFiles/xysocket.dir/build.make CMakeFiles/xysocket.dir/mysql_connection.cpp.o.provides.build
+.PHONY : CMakeFiles/xysocket.dir/mysql_connection.cpp.o.provides
+
+CMakeFiles/xysocket.dir/mysql_connection.cpp.o.provides.build: CMakeFiles/xysocket.dir/mysql_connection.cpp.o
+
+
 # Object files for target xysocket
 xysocket_OBJECTS = \
 "CMakeFiles/xysocket.dir/main.cpp.o" \
 "CMakeFiles/xysocket.dir/WebSocketServer.cpp.o" \
 "CMakeFiles/xysocket.dir/Util.cpp.o" \
-"CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o"
+"CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o" \
+"CMakeFiles/xysocket.dir/mysql_connection.cpp.o"
 
 # External object files for target xysocket
 xysocket_EXTERNAL_OBJECTS =
@@ -167,10 +192,11 @@ xysocket: CMakeFiles/xysocket.dir/main.cpp.o
 xysocket: CMakeFiles/xysocket.dir/WebSocketServer.cpp.o
 xysocket: CMakeFiles/xysocket.dir/Util.cpp.o
 xysocket: CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o
+xysocket: CMakeFiles/xysocket.dir/mysql_connection.cpp.o
 xysocket: CMakeFiles/xysocket.dir/build.make
 xysocket: /usr/local/lib/libwebsockets.so
 xysocket: CMakeFiles/xysocket.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joyce/program/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable xysocket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable xysocket"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/xysocket.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -182,6 +208,7 @@ CMakeFiles/xysocket.dir/requires: CMakeFiles/xysocket.dir/main.cpp.o.requires
 CMakeFiles/xysocket.dir/requires: CMakeFiles/xysocket.dir/WebSocketServer.cpp.o.requires
 CMakeFiles/xysocket.dir/requires: CMakeFiles/xysocket.dir/Util.cpp.o.requires
 CMakeFiles/xysocket.dir/requires: CMakeFiles/xysocket.dir/sonWebSocketServer.cpp.o.requires
+CMakeFiles/xysocket.dir/requires: CMakeFiles/xysocket.dir/mysql_connection.cpp.o.requires
 
 .PHONY : CMakeFiles/xysocket.dir/requires
 
@@ -190,6 +217,6 @@ CMakeFiles/xysocket.dir/clean:
 .PHONY : CMakeFiles/xysocket.dir/clean
 
 CMakeFiles/xysocket.dir/depend:
-	cd /home/joyce/program/xysocket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joyce/program/xysocket /home/joyce/program/xysocket /home/joyce/program/xysocket/cmake-build-debug /home/joyce/program/xysocket/cmake-build-debug /home/joyce/program/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dingwenjiang/Desktop/xysocket/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dingwenjiang/Desktop/xysocket /home/dingwenjiang/Desktop/xysocket /home/dingwenjiang/Desktop/xysocket/cmake-build-debug /home/dingwenjiang/Desktop/xysocket/cmake-build-debug /home/dingwenjiang/Desktop/xysocket/cmake-build-debug/CMakeFiles/xysocket.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/xysocket.dir/depend
 

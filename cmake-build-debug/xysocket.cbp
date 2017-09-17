@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/joyce/program/xysocket/cmake-build-debug"/>
+				<Option working_dir="/home/dingwenjiang/Desktop/xysocket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/joyce/program/xysocket/cmake-build-debug"/>
+				<Option working_dir="/home/dingwenjiang/Desktop/xysocket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/joyce/program/xysocket/cmake-build-debug"/>
+				<Option working_dir="/home/dingwenjiang/Desktop/xysocket/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xysocket">
-				<Option output="/home/joyce/program/xysocket/cmake-build-debug/xysocket" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/joyce/program/xysocket/cmake-build-debug"/>
+				<Option output="/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/xysocket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dingwenjiang/Desktop/xysocket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 xysocket"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 xysocket"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="xysocket/fast">
-				<Option output="/home/joyce/program/xysocket/cmake-build-debug/xysocket" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/joyce/program/xysocket/cmake-build-debug"/>
+				<Option output="/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/xysocket" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/dingwenjiang/Desktop/xysocket/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,35 +77,41 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 xysocket/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/home/joyce/program/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 xysocket/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/dingwenjiang/Desktop/xysocket/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/joyce/program/xysocket/Util.cpp">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/Util.cpp">
 			<Option target="xysocket"/>
 		</Unit>
-		<Unit filename="/home/joyce/program/xysocket/Util.h">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/Util.h">
 			<Option target="xysocket"/>
 		</Unit>
-		<Unit filename="/home/joyce/program/xysocket/WebSocketServer.cpp">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/WebSocketServer.cpp">
 			<Option target="xysocket"/>
 		</Unit>
-		<Unit filename="/home/joyce/program/xysocket/WebSocketServer.h">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/WebSocketServer.h">
 			<Option target="xysocket"/>
 		</Unit>
-		<Unit filename="/home/joyce/program/xysocket/main.cpp">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/main.cpp">
 			<Option target="xysocket"/>
 		</Unit>
-		<Unit filename="/home/joyce/program/xysocket/sonWebSocketServer.cpp">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/mysql_connection.cpp">
 			<Option target="xysocket"/>
 		</Unit>
-		<Unit filename="/home/joyce/program/xysocket/sonWebSocketServer.h">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/mysql_connection.h">
 			<Option target="xysocket"/>
 		</Unit>
-		<Unit filename="/home/joyce/program/xysocket/CMakeLists.txt">
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/sonWebSocketServer.cpp">
+			<Option target="xysocket"/>
+		</Unit>
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/sonWebSocketServer.h">
+			<Option target="xysocket"/>
+		</Unit>
+		<Unit filename="/home/dingwenjiang/Desktop/xysocket/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
